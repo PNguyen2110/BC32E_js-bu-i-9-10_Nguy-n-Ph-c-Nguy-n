@@ -64,7 +64,7 @@ function render(arrayNV){
       html += 
       `
       <tr>
-        <td>${i}</td>
+        
         <td>${nhanvien.taiKhoan}</td>
         <td>${nhanvien.hoTen}</td>
         <td>${nhanvien.email}</td>

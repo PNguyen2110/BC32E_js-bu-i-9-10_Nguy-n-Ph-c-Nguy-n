@@ -1,5 +1,5 @@
 function nhanVien(){
-    this.stt = '';
+   
     this.taiKhoan = '';
     this.hoTen = '';
     this.email =  ''; 

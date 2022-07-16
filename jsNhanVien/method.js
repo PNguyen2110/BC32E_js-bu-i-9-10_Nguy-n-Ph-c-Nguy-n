@@ -142,7 +142,10 @@
         }
         // password
         if( kiemTraRong('password','tbMatKhau')){
-         kiemTraDacBiet('password','tbMatKhau')
+          kiemTraDacBiet('password','tbMatKhau')
+          if(kiemTraDacBiet('password','tbMatKhau')){
+            kiemTraDoDai('password','tbMatKhau', 6, 10, 'Độ dài phải từ 6 - 10 kí tự')
+          }
         }
         //Ngày làm
         if( kiemTraRong('datepicker','tbNgay')){
